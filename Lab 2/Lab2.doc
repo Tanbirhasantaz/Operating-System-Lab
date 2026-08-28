@@ -15,9 +15,31 @@ cp--> copy file
 
 
 touch <filname>
-    For Create a new file we use touch
+    For Create a new empty file we use touch
 
 vi <filname>
     Use for open file
+vi
+    Open the Vi/Vim editor directly without specifying or creating a file.
 
 
+1. 2 Modes
+a. Command Mode (Esc)
+b. Insert Mode (i)
+
+:w --> write/save
+:q --> quit
+:x --> write and exit
+:q! --> quit without saving
+:w <FileName>	
+    Save the open buffer to a specific <FileName> (useful if opened with vi).
+:wq <FileName>	
+    Save to <FileName> and exit.
+:x <FileName>	
+    Save to <FileName> and exit.
+
+u --> In Command Mode, press "u" to undo the last action.
+U --> Undo Line: Undo all recent changes made on the current line.
+dd --> Full line Remove
+dw --> Delete Word: Delete from the cursor to the end of the current word.
+vi --> open text editor
