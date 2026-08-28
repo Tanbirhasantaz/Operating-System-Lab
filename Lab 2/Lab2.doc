@@ -1,0 +1,23 @@
+Sudo apt install vim
+    (Use in cmd in Linux and download the VI)
+
+cp--> copy file
+
+-cp f1 f2     f=file
+        f1 is copied as f2
+
+-cp F1 F2    F=Folder
+    this will not work ( only work for empty Folder)
+
+-cp f1 F1 
+    f1 is copied into F1
+
+
+
+touch <filname>
+    For Create a new file we use touch
+
+vi <filname>
+    Use for open file
+
+
