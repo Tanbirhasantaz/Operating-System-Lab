@@ -1,0 +1,8 @@
+-pwd
+    Print the Pathname of the working directory
+
+-ls
+    List Content of directories
+
+-ls -p
+    List directory and put a slash (/) after each entry is a directory
