@@ -6,3 +6,33 @@
 
 -ls -p
     List directory and put a slash (/) after each entry is a directory
+
+-cd <Foldername>
+    Change working directory to Foldername
+
+-cd ..
+    Change to the directory one level up
+
+-cd
+    Change to your home directory
+
+-cd ../../..
+    Change to the directory three levels up
+
+-cd /
+    Change to the top most level directory (root directory)
+
+-mkdir <Foldername>
+    Make a directory named Foldername
+
+-mkdir <Foldername1 / Foldername2>
+    Create a directory named Foldername2 undernearth the one named Foldername1
+
+-rmdir <Foldername>
+    Remove an empty directory called Foldername
+
+-rm -r <Foldername>
+    Removed the Foldername that is not empty
+
+-mv <Old Foldername> <New Foldername>
+    Rename the directory named from old to New
