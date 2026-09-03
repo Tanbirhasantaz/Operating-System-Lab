@@ -1,0 +1,45 @@
+#!/bin/bash
+
+list=$(ls -p)
+for car in $list
+do
+	echo "$car"
+done
+
+
+#count of file folder
+
+list=$(ls -p)
+count=0
+for car in $list
+do
+	((count++))
+done
+echo "$count"
+
+#count of Folder
+
+list=$(ls -p)
+count=0
+folder=0
+file=0
+txt=0
+for car in $list
+do
+	((count++))
+	if [[ "$car" == */ ]]
+		then
+			((folder++))
+		else
+			((file++))
+	fi
+	if [[ "$car" == *.txt ]]
+	then
+		((txt++))
+	fi
+done
+echo "$count"
+echo "$folder"
+echo "$file"
+echo "$txt"
+
