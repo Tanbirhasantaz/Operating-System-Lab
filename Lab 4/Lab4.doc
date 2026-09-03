@@ -1,0 +1,43 @@
+Shell Script--> A Plain text file contaiting a sequential list of shell commands executed as an automated problem.
+
+Shebug/Hashbang-->
+#!/bin/bash  --> Fist line of the code (In starting of every single shell Script)
+
+Create a Shell Script-->
+-touch script.sh    [script.sh (File Name)]
+ sh --> is the extention of the shell script
+
+-vi script.sh   [vi --> use for open the file]
+
+Comments--> Similar to python uses '#' for commenting
+
+Printing --> Uses echo function similar to python
+Example:  echo "Hello World"
+
+Running a Shell Program -->
+-chmod +x script.sh   
+[chmod means change mode for the file]
+[+x means creating an executable file]
+
+-./script.sh  [current directory]
+
+Variables --> Dynamic Variables similar to python
+Example: 
+username="ABC"
+age = 25
+Note: There is no spacing between the '=' sign var naming similar to c/c++
+
+To Print Variables need to use '$' sign infront of varname
+Example: echo $username
+
+To directly concate two strings use curly braces {}
+Example: echo "$ {username} s"
+         echo "$ {age}+2"
+        
+To treat Variables as int use two pair of first brackets with spaces in between them
+Example: echo " $ ((age+2))"
+
+Directly using OS Variables
+Example: $ (pwd)
+Use a pair of brackets along with the var name in between
+
