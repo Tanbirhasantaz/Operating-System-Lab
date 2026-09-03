@@ -1,0 +1,44 @@
+Grep Basic
+
+grep --> Used for Searching in file or files
+
+-grep "boo" a_file
+    String to be searched filename
+
+-grep -n "boo" a_file
+    Used to show line numbers
+
+-grep -v "boo" a_file
+    Used for showing lines where the stirng is not matched
+
+-grep -nv "boo" a_file
+    Cascaded flags
+
+-grep -c "boo" a_file
+    shows number of line where string is matched 
+
+-grep -l "boo" *
+    flag to search for file name where string is matched and (*) means 0 or more
+
+-grep -i "Boo" a_file
+    case sensetivity is truned off
+
+-grep -x "boo" a_file
+    Used to match string, substring will not be returned
+
+-grep -A2 "match" a_file
+    A is used to display more words after matched substring 
+    2 is the number of more lines to be displayed after match
+
+-grep "e$" a_file
+    Shows string ending with the char 'e'
+
+-grep "^b" a_file
+    Shows String starting with the char 'b'
+
+-grep "oo.." a_file
+    Exactly or more than 2 char after "oo"
+
+-grep -E "bool mach" a_file
+    -E flag to use complex regular expressions
+    "bool mach" is matches boo or mach in the file
